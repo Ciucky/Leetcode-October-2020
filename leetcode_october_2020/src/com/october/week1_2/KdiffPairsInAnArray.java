@@ -7,7 +7,9 @@ public class KdiffPairsInAnArray {
 		HashMap<Integer, Integer> pp = new HashMap<Integer, Integer>();
 		HashMap<Integer, Integer> pm = new HashMap<Integer, Integer>();
 		int c = 0; //counter
+		
 		// any number can only be in max 2 pairs (n, n+k) and (n-k, n)
+		
 		for (int i = 0; i < nums.length; i++) {
 			for (int j = i + 1; j < nums.length; j++) {
 				//System.out.println("i: " + nums[i] + "  j: " + nums[j]);
